@@ -59,6 +59,6 @@ port.xml | Hosted at `GeoQuiz-mobile-app/ucesmmh/www/res/` to get the port id
 Source  | Used in 
 --------|----------
 Web and Mobile Module Practical | All the JS and HTML files
-https://jsfiddle.net/8v88gwqn/1/ on 23/03/2019 | Draw the graphs in topFive.js
+[Bar chart example](https://jsfiddle.net/8v88gwqn/1/) on 23/03/2019 | Draw the graphs in topFive.js
 Material Design | In the index.html 
 Leaflet | In All JS files dealing with the map and the index.html file 
