@@ -1,4 +1,5 @@
-# ucesmmh_quiz
+# GeoQuiz mobile app 
+This is one of there repositories for a full mobile and web development project. The project was submitted for assessment during UCL masters course and was awarded ***distinction**. 
 Please check the [README file of the Server Repository](https://github.com/ucl-geospatial/ucesmmh_server/blob/master/README.md) first, Before reading this file.*
 
 ## System Requirements:

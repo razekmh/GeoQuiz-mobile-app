@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Help</title>
+    <style>
+    body{
+        text-align: center;
+    }
+    p{
+        text-align: left;
+    }
+    </style>
+</head>
+<body>
+    <h3 id="help_top" style="text-align: center">Location-Based Quiz App Help </h3>
+    <hr>
+    <p>This app works almost like a game. The main storyline is that when you are close to a questions point, the question will popup on your screen so you can answer it and the application will tell you if you answered it correctly or not.</p><hr>
+    <p style= "text-align: left"><i>The application host a few functions which are as follows:</i></p>
+    <ul style="text-align:left">
+                <li><a href="#default">The default display</a></li>
+                <li><a href="#all">Load All questions by All Users</a></li>
+                <li><a href="#close">Load the Closeset Five Questions</a></li>
+                <li><a href="#rank">Get My Ranking</a></li>
+                <li><a href="#count">Get Number of Correct Answers</a></li>
+                <li><a href="#last">Load Last Five Answered Questions</a></li>
+                <li><a href="#incorrect">Load Questions Answered Incorrectly</a></li>
+                <li><a href="#top">Top Five Users</a></li>
+    </ul><hr>
+    <h5 style="text-align:left" id="default"><u>The default display</u></h5><br>
+    <p>This display loads automatically once you start the application and it loads on all the questions added by you in the questions app. You can also access the default display through the <b>Load My Questions </b> option from the menu on the left-hand side. Once the questions load if there's any question within a distance of a 100 meters it will automatically display the question text and give you the chance to answer it as displayed in the screenshot below.</p><br><img src="images/def.jpg" alt="default_display" style="width:80%"><br><hr><p><i><b>Please note:</b> that you can close the popup without answering the question. Also you can choose <b>any question point displayed on the map</b> to answer the question related to it if you wish. You can do that by simply clicking on the point itself and the pop up will show holding the question details. It is also important to notice that once you answer any of the questions a message will display to inform you whether your answer is correct or not. You will also be informed about <b>your current count of correct answers</b> and you will be given <b>the correct answer</b> if your answer was not correct. Once you dismiss this message the colour of the question point will change to either <font color="red">red</font> or <font color="green">green</font> based on if your answer was correct or not.</i></p><p style="text-align: right"><a href="#help_top">Back to top</a></p><hr>
+
+    <h5 style="text-align:left" id="all"><u>Load All questions by All Users</u></h5><br>
+    <p>Similar to the previous display, this feature display questions points on the map. The main differance is that it loads <b>all the question points added by all the users,</b> not just yours</p><p style="text-align: right"><a href="#help_top">Back to top</a></p><hr>
+
+    <h5 style="text-align:left" id="close"><u>Load the Closeset Five Questions</u></h5><br>
+    <p>This feature checks your location and then loads the closest five question to you. The same button would remove the questions from the map if clicked right after while the questions are in display, effectively acting as a toggle on-off for these questions. This can be seen in the screenshots below.</p><br><img src="images/closest_on.jpg" alt="closest_on" style="width:80%"> <img src="images/closest_off.jpg" alt="closest_off" style="width:80%"><br><p style="text-align: right"><a href="#help_top">Back to top</a></p><hr>
+
+    <h5 style="text-align:left" id="rank"><u>Get My Ranking</u></h5><br>
+    <p>This feature simply displays a message with your current ranking. This can be seen in the screenshots below.</p><br><img src="images/rank.jpg" alt="rank" style="width:80%"><br><p style="text-align: right"><a href="#help_top">Back to top</a></p><hr>
+    
+    <h5 style="text-align:left" id="count"><u>Get Number of Correct Answers</u></h5><br>
+    <p>This feature simply displays a message with the current count of your correct answers. This can be seen in the screenshots below.</p><br><img src="images/count.jpg" alt="count" style="width:80%"><br><p style="text-align: right"><a href="#help_top">Back to top</a></p><hr>
+
+    <h5 style="text-align:left" id="last"><u>Load Last Five Answered Questions</u></h5><br>
+    <p>This feature displays on the map the last five questions answered by the user. The question points will be displayed in either <font color="red">red</font> or <font color="green">green</font> based on if your latest answer was correct or not. This can be seen in the screenshots below.</p><br><img src="images/last.jpg" alt="last_five_questions" style="width:80%"><br><p style="text-align: right"><a href="#help_top">Back to top</a></p><hr>
+
+    <h5 style="text-align:left" id="incorrect"><u>Load Questions Answered Incorrectly</u></h5><br>
+    <p>This feature displays on the map the questions which were not answered correctly by you.</p><br><p style="text-align: right"><a href="#help_top">Back to top</a></p><hr>
+
+    <h5 style="text-align:left" id="top"><u>Top Five Users</u></h5><br>
+    <p>This feature displays a graph below the map showing the top five users by port id, and the number of correct questions each of them has answered. This can be seen in the screenshots below.</p><br><img src="images/top.jpg" alt="top_five_users" style="width:80%"><br><p style="text-align: right"><a href="#help_top">Back to top</a></p><hr>
+    <p><b>Please note:</b><i> that all the features mentioned above will automatically scroll to the corresponding item once displayed. Also if the displayed items are on the map, the features will start by removing the currently displayed questions first then adding the new ones</i></p>
+    <hr>
+    <br>
+    <hr>
+</body>
+</html>
